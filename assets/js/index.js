@@ -42,10 +42,10 @@ try {
 // 2
 const dateTimeInput = document.querySelector("#datetime-picker");
 const startBtn = document.querySelector("[data-start]");
-const daysEl = document.querySelector("[data-days]");
-const hoursEl = document.querySelector("[data-hours]");
-const minutesEl = document.querySelector("[data-minutes]");
-const secondsEl = document.querySelector("[data-seconds]");
+const daysEl = document.querySelector("#days");
+const hoursEl = document.querySelector("#hours");
+const minutesEl = document.querySelector("#minutes");
+const secondsEl = document.querySelector("#seconds");
 
 startBtn.disabled = true;
 let chosenDate = null;
